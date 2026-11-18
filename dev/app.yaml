@@ -28,7 +28,7 @@ metadata:
   name: app-service
 spec:
   selector:
-    app.kubernetes.io/name: app
+    app: app
   ports:
     - protocol: TCP
       port: 8888
